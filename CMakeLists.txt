@@ -116,7 +116,7 @@ install(
 )
 install(
     FILES
-        jerror.h jmorecfg.h jpeglib.h
+        jconfig.h jerror.h jmorecfg.h jpeglib.h
     DESTINATION "include"
 )
 
