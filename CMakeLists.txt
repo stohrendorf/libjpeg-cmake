@@ -42,7 +42,7 @@ else()
 endif()
 
 
-configure_file(${CMAKE_SOURCE_DIR}/jconfig.h.in ${CMAKE_SOURCE_DIR}/jconfig.h)
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/jconfig.h.in ${CMAKE_CURRENT_SOURCE_DIR}/jconfig.h)
 
 add_library(libjpeg
     jaricom.c
